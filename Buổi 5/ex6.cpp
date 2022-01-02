@@ -16,12 +16,12 @@ using namespace std;
 //using namespace huan;
 //using namespace huan::huan2;
 
-
+#include <iomanip>
 int main() {
-	ShowInfo();
-	ShowInfo();
+	// ShowInfo();
+	// ShowInfo();
 	
-	cout << age2;
+	// cout << age2;
 	/*
 		Nhap: scanf() === cin >>
 		Xuat: printf() === cout <<
@@ -37,6 +37,12 @@ int main() {
 //	cout << "n = " << n << endl;
 	
 //	cout << "dfghjkl;";
+	// return 0;
+	string str;
+	// cin >> str;
+	getline(cin, str);
+
+	cout << str;
+
 	
-	return 0;
 }
